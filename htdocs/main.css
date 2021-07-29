@@ -1,0 +1,140 @@
+body, html {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.get-started {
+    border-color: #6f42c1;
+    color: #6f42c1;
+}
+.get-started:hover {
+    border-color: #6f42c1;
+    background-color: #6f42c1;
+}
+
+.aboutUs-desc, .aboutUs-title {
+    text-align: right;
+}
+.aboutUs-title {
+    padding-top: 5rem;
+}
+.aboutUs-desc {
+    font-size: 1.2rem;
+    max-width: 50rem;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.description {
+    width: 100%;
+    height: 90%;
+    padding: 15% 2rem;
+    text-align: center;
+}
+.st-text {
+    font-size: 2.8rem;
+    margin-bottom: 0;
+}
+.nd-text {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+.callUs {
+    padding: 1rem 2rem;
+    background: #6f42c1;
+    border-color: #6f42c1;
+}
+.callUs:hover {
+    background: #653daf;
+    border-color: #6f42c1;
+}
+
+.contactUs {
+    margin: auto;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+.contactUs p {
+    font-size: 1.5rem;
+}
+
+.send-req {
+    background: #6f42c1;
+    border-color: #6f42c1;
+}
+.send-req:hover {
+    background: #653daf;
+}
+
+.feature-title {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.featureLeft {
+    text-align: right;
+    margin: auto;
+    padding: 2rem;
+}
+.featureRight {
+    text-align: left;
+    margin: auto;
+    padding: 2rem;
+}
+.img-right, .img-left {
+    text-align: center;
+}
+
+.footerSec {
+    padding-top: 2rem;
+    background-color: #F8F9FA;
+}
+
+.copyright p {
+    text-align: left;
+}
+.author p {
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .copyright p, .author p {
+        text-align: center;
+    }
+
+    .st-text {
+        font-size: 1.7rem;
+        margin-bottom: 0;
+    }
+    .nd-text {
+        font-size: 1.2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .description {
+        padding: 35% 2rem;
+        text-align: center;
+    }
+
+    .aboutUs-desc, .aboutUs-title {
+        text-align: center;
+    }
+    .aboutUs-desc {
+        padding-bottom: 1rem;
+    }
+    .aboutUs-img {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .st-text {
+        font-size: 1.3rem;
+        margin-bottom: 0;
+    }
+    .nd-text {
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+    }
+}
